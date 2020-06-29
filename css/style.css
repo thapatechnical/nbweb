@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Philosopher', sans-serif;
 }
 
 /* #Link to page
@@ -11,7 +14,7 @@
 	font-size: 48px;
 	font-weight: 700;
 	line-height: 56px;
-	color: #0097b2;
+	color: #142850;
 }
 
 .main_header_content h2 {
@@ -177,4 +180,70 @@
 .services .btn-get-started:hover {
 	background: #3498db;
 	color: #fff;
+}
+
+/* ==========================================================================
+#our services  Section
+========================================================================== */
+.Common_section {
+	margin: 50px 0;
+}
+
+.hvr-wobble-bottom {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+.common-padding {
+	margin-top: 50px;
+}
+
+.wwtab {
+	margin-bottom: 72px;
+	background: #fff;
+	padding: 10px;
+}
+
+.wwiconcol {
+	padding-right: 0px;
+	border-right: 1px solid #00909e;
+}
+
+.wwtab img {
+	width: auto;
+}
+
+.wwtab h6 {
+	font-size: 15px;
+	color: #142850;
+	font-weight: 500;
+}
+
+.wwtab p {
+	text-align: left;
+	color: #7984a0;
+}
+
+.wwtab p {
+	margin: 0 0 0px;
+	color: #27496d;
+}
+
+.ww-readmore {
+	color: #00909e !important;
+}
+
+.ww-con {
+	padding: 0px 0px 30px 0px;
+}
+
+.wwtab {
+	border-bottom: 1px solid #ececec;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
