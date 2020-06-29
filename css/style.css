@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* #Link to page
+================================================== */
+.main_header_content h1 {
+	margin: 0 0 20px 0;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 56px;
+	color: #0097b2;
+}
+
+.main_header_content h2 {
+	color: #484848;
+	margin-bottom: 50px;
+	line-height: 35px;
+	font-size: 22px;
+}
+
+.hero_main_margin {
+	margin-top: 5rem !important;
+}
+
+.hero_carausal {
+	margin-top: 5rem !important;
+}
+
+/* #Media
+================================================== */
+@media (max-width:1280px) {
+	.main_header_content h1 {
+		font-size: 32px;
+	}
+
+	.main_header_content h2 {
+		font-size: 19px;
+	}
+
+}
+
+@media (max-width:767px) {
+	.main_header_content h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.main_header_content h2 {
+		font-size: 15px;
+		line-height: 28px;
+		margin-bottom: 15px;
+	}
+
+	.hero-img img {
+		width: 220px;
+		height: auto;
+	}
+
+	.hero_main_btn {
+		margin: auto;
+		text-align: center;
+	}
+
+}
+
+/* ==========================================================================
+   #Main Header Section
+   ========================================================================== */
+.animations {
+
+	/*animation: heroimg 3s ease-in-out infinite alternate-reverse;*/
+	animation-name: heroimg;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-fill-mode: both;
+	animation-play-state: running;
+}
+
+@keyframes heroimg {
+	from {
+		transform: scaleY(1);
+	}
+
+	to {
+		transform: scaleY(1.08);
+	}
+
+}
+
+/* ==========================================================================
+#Main Header Section Ends
+========================================================================== */
+
+/* ==========================================================================
+#Main Landing Section
+========================================================================== */
+
+.main_div {
+	width: 100%;
+	height: 90vh;
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 50%, rgba(0, 224, 255, 0.5)), url("../images/bg.png");
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.center_div {
+	max-width: 1000px;
+	max-height: 400px;
+	position: absolute;
+	top: 40%;
+	left: 5%;
+	text-align: left;
+}
+
+.center_div h1 {
+
+	/*font-family: Josefin Sans;*/
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 4rem;
+	line-height: 70px;  /*background: #fff;*/
+	color: #575fcf;
+	text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.5);
+	text-align: center;
+	letter-spacing: 0.08em;  /*border: 1px solid #000000;*/
+}
+
+.center_div p {
+	font-family: Josefin Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.7rem;
+	line-height: 40px;
+	text-transform: capitalize;
+	letter-spacing: 0.02em;
+	padding: 20px 0 30px 0;
+	color: #000000;
+	mix-blend-mode: normal;
+}
+
+.center_div a {
+	text-decoration: none;
+}
+
+.center_div .btn_main {
+	padding: 8px 16px;
+	border: 2px solid #575fcf;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+	border-radius: 25px;
+	background: #fff;
+	color: #575fcf;
+	text-transform: uppercase;
+}
+
+.services .btn-get-started {
+	font-family: "Muli", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 50px;
+	transition: 0.5s !important;
+	color: #3498db;
+	border: 2px solid #3498db;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.services .btn-get-started:hover {
+	background: #3498db;
+	color: #fff;
+}
