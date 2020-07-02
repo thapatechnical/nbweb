@@ -1,5 +1,8 @@
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NB WebSolution is the leading web development company in Uk and in India.">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="NB Web Solution">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha256-qUoT1OnfjcK8aWoWiTDNUR+DSYE2u6O7C5aNdVbwuAc=" crossorigin="anonymous" />
 <link
