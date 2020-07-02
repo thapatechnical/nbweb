@@ -1,4 +1,4 @@
-<div>
+<div class="navigation-wrap bg-light start-header ">
 <div class="container-fluid">
   <div class="row">
     <div class="col-10 mx-auto">
@@ -8,7 +8,7 @@
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav w-100 d-flex justify-content-center align-items-end " id="navbar_id">
+          <ul class="navbar-nav w-100 d-flex justify-content-center align-items-end menu_center" id="navbar_id">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -26,7 +26,7 @@
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-success my-2 my-sm-0" >9518365545</button>
+           <a href="https://api.whatsapp.com/send?phone=+447882205244" class="btn btn-outline-info my-2 my-sm-0"> WhatsApp</a>
           </form>
         </div>
       </nav>
@@ -34,12 +34,3 @@
   </div>
 </div>
 </div>
-<script type="text/javascript">
-if ($(window).width() < 992) {
-$('#navbar_id').removeClass('w-100');
-$('#navbar_id').removeClass('d-flex');
-$('#navbar_id').removeClass('align-items-end');
-} else {
-$('#navbar_id').addClass('w-100');
-}
-</script>

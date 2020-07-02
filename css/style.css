@@ -1,10 +1,190 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+
+/**
+ * Developed By
+ NB Web Solution
+ */
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
 
 * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+/* ==========================================================================
+   #RESET
+   ========================================================================== */
+
+/**
+ * A very simple reset that sits on top of Normalize.css.
+ */
+body, h1, h2, h3, h4, h5, h6, blockquote, p, pre, dl, dd, ol, ul, figure, hr, fieldset, legend {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Philosopher', sans-serif;
+}
+
+/**
+ * Remove trailing margins from nested lists.
+ */
+li > ol, li > ul {
+	margin-bottom: 0;
+}
+
+/**
+ * Remove default table spacing.
+ */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**
+ * 1. Reset Chrome and Firefox behaviour which sets a `min-width: min-content;`
+ *    on fieldsets.
+ */
+fieldset {
+	min-width: 0;  /* [1] */
+	border: 0;
+}
+
+button {
+	outline: none;
+	background: none;
+	border: none;
+}
+
+/* ==========================================================================
+   #BACKGROUND
+   ========================================================================== */
+.bg-blue {
+	background: #2c6ed5;
+}
+
+.bg-red {
+	background: #fa4251;
+}
+
+.bg-form {
+	background: rgba(0, 224, 255, 0);
+}
+
+/* ==========================================================================
+   #SPACING
+   ========================================================================== */
+.p-t-100 {
+	padding-top: 100px;
+}
+
+.p-t-130 {
+	padding-top: 50px;
+}
+
+.p-t-180 {
+	padding-top: 180px;
+}
+
+.p-t-20 {
+	padding-top: 20px;
+}
+
+.p-t-15 {
+	padding-top: 15px;
+}
+
+.p-t-10 {
+	padding-top: 10px;
+}
+
+.p-t-30 {
+	padding-top: 30px;
+}
+
+.p-b-100 {
+	padding-bottom: 100px;
+}
+
+.m-r-45 {
+	margin-right: 45px;
+}
+
+/* ==========================================================================
+   #WRAPPER
+   ========================================================================== */
+.wrapper {
+	margin: 0 auto;
+}
+
+.wrapper--w960 {
+	max-width: 960px;
+}
+
+.wrapper--w780 {
+	max-width: 780px;
+}
+
+.wrapper--w680 {
+	max-width: 680px;
+}
+
+.start-header {
+	opacity: 1;
+	transform: translateY(0);
+	padding: 10px 0;
+	box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.nav-item:hover .nav-link {
+	color: #4272d7 !important;
+}
+
+.nav-item.active .nav-link {
+	color: #777 !important;
+}
+
+.nav-item:after {
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	content: "";
+	background-color: #4272d7;
+	opacity: 0;
+	transition: all 200ms linear;
+}
+
+.nav-item:hover:after {
+	bottom: 0;
+	opacity: 1;
+}
+
+.nav-item.active:hover:after {
+	opacity: 0;
+}
+
+.nav-item {
+	position: relative;
+	transition: all 200ms linear;
+}
+
+.menu_center {
+	text-align: center;
 }
 
 /* #Link to page
@@ -25,7 +205,7 @@
 }
 
 .hero_main_margin {
-	margin-top: 5rem !important;
+	padding-top: 5rem !important;
 }
 
 .hero_carausal {
@@ -45,7 +225,11 @@
 
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
+	.main_heading h1 {
+		font-size: 2rem;
+	}
+
 	.main_header_content h1 {
 		font-size: 28px;
 		line-height: 36px;
@@ -106,60 +290,10 @@
 
 .main_div {
 	width: 100%;
-	height: 90vh;
-	background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 50%, rgba(0, 224, 255, 0.5)), url("../images/bg.png");
+	height: auto;
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 50%, rgb(39, 73, 109)), url("../images/bg.png");
 	background-size: 100% 100%;
 	position: relative;
-}
-
-.center_div {
-	max-width: 1000px;
-	max-height: 400px;
-	position: absolute;
-	top: 40%;
-	left: 5%;
-	text-align: left;
-}
-
-.center_div h1 {
-
-	/*font-family: Josefin Sans;*/
-	font-style: normal;
-	font-weight: bold;
-	text-transform: uppercase;
-	font-size: 4rem;
-	line-height: 70px;  /*background: #fff;*/
-	color: #575fcf;
-	text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.5);
-	text-align: center;
-	letter-spacing: 0.08em;  /*border: 1px solid #000000;*/
-}
-
-.center_div p {
-	font-family: Josefin Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 1.7rem;
-	line-height: 40px;
-	text-transform: capitalize;
-	letter-spacing: 0.02em;
-	padding: 20px 0 30px 0;
-	color: #000000;
-	mix-blend-mode: normal;
-}
-
-.center_div a {
-	text-decoration: none;
-}
-
-.center_div .btn_main {
-	padding: 8px 16px;
-	border: 2px solid #575fcf;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-	border-radius: 25px;
-	background: #fff;
-	color: #575fcf;
-	text-transform: uppercase;
 }
 
 .services .btn-get-started {
@@ -171,14 +305,13 @@
 	padding: 10px 30px;
 	border-radius: 50px;
 	transition: 0.5s !important;
-	color: #3498db;
-	border: 2px solid #3498db;
+	color: #00909e;
+	border: 2px solid #00909e;
 	margin: auto;
-	margin-top: 20px;
 }
 
 .services .btn-get-started:hover {
-	background: #3498db;
+	background: #00909e;
 	color: #fff;
 }
 
@@ -189,7 +322,7 @@
 	margin: 50px 0;
 }
 
-.hvr-wobble-bottom {
+.services_bottom {
 	display: inline-block;
 	vertical-align: middle;
 	-webkit-transform: perspective(1px) translateZ(0);
@@ -203,38 +336,40 @@
 	margin-top: 50px;
 }
 
-.wwtab {
+.nb_tab {
 	margin-bottom: 72px;
 	background: #fff;
 	padding: 10px;
 }
 
-.wwiconcol {
+.nb_iconcol {
 	padding-right: 0px;
 	border-right: 1px solid #00909e;
 }
 
-.wwtab img {
+.nb_tab .fas {
 	width: auto;
+	color: #00909e;
 }
 
-.wwtab h6 {
-	font-size: 15px;
+.nb_tab h6 {
+	font-size: 22px;
 	color: #142850;
 	font-weight: 500;
 }
 
-.wwtab p {
+.nb_tab p {
 	text-align: left;
 	color: #7984a0;
+	padding: 5px 0;
 }
 
-.wwtab p {
+.nb_tab p {
 	margin: 0 0 0px;
 	color: #27496d;
 }
 
-.ww-readmore {
+.nb-readmore {
 	color: #00909e !important;
 }
 
@@ -242,8 +377,119 @@
 	padding: 0px 0px 30px 0px;
 }
 
-.wwtab {
+.nb_tab {
 	border-bottom: 1px solid #ececec;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
 }
+
+@media(max-width:768px) {
+	.our_ser_res {
+		margin-top: 30px;
+	}
+
+}
+
+/* ==========================================================================
+#our Recent Works
+========================================================================== */
+.card_sec {
+	box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.card_sec:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 0 10px 0  #27496d;
+}
+
+@media(max-width:768px) {
+	.common-padding {
+		margin: 0;
+	}
+
+	.card_res {
+		margin-top: 30px;
+	}
+
+}
+
+/* ==========================================================================
+#we are together Works 
+========================================================================== */
+.together_res a {
+	text-decoration: none;
+}
+
+.together_res a:hover {
+	text-decoration: none;
+}
+
+/* ==========================================================================
+#we are together Works 
+========================================================================== */
+.contactus_index {
+	background: #31a7fe;
+}
+
+/* ==========================================================================
+#Footer
+========================================================================== */
+.footer-classic {
+	color: #000;	/*background: #dae1e7;*/
+}
+
+.context-dark, .bg-gray-dark, .bg-primary {
+	color: #000;
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+	color: #000;
+}
+
+.footer-classic .nav-list li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.footer-classic .nav-list li a:hover {
+	margin-left: 0;
+	color: #0097b2;
+}
+
+.contact-list a:hover {
+	color: #0097b2;
+}
+
+.footer-classic ul, ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.social-inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding: 23px;
+	font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.social-container .col {
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width:767px) {
+	.footer_links {
+		margin-top: 40px;
+	}
+
+}
+
+/* ==========================================================================
+#Footer Ends
+========================================================================== */
