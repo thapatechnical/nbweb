@@ -23,7 +23,7 @@
               </dl>
               <dl class="contact-list">
                 <dt><i class="fas fa-envelope"></i></dt>
-                <dd><a href="mailto:info@kastingkollywood.com">info@nbwebsolution.com</a></dd>
+                <dd><a href="mailto:mail@kastingkollywood.com">mail@nbwebsolution.com</a></dd>
               </dl>
               <dl class="contact-list">
                 <dt><i class="fas fa-phone-alt"></i></dt>

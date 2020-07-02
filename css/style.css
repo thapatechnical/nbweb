@@ -226,6 +226,10 @@ button {
 }
 
 @media (max-width:768px) {
+	.main_header_content {
+		margin-top: 30px;
+	}
+
 	.main_heading h1 {
 		font-size: 2rem;
 	}
@@ -347,9 +351,8 @@ button {
 	border-right: 1px solid #00909e;
 }
 
-.nb_tab .fas {
+.nb_tab img {
 	width: auto;
-	color: #00909e;
 }
 
 .nb_tab h6 {
@@ -427,10 +430,17 @@ button {
 }
 
 /* ==========================================================================
-#we are together Works 
+#Contact Us Works 
 ========================================================================== */
 .contactus_index {
 	background: #31a7fe;
+}
+
+@media(max-width:768px) {
+	.contactus_middle_div {
+		margin: 20px 0;
+	}
+
 }
 
 /* ==========================================================================

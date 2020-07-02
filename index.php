@@ -9,14 +9,14 @@
 		
 		<?php  include 'menu.php' ?>
 		<!-- ======= Hero Section ======= -->
-		<section id="hero" class="d-flex align-items-center  hero_main_margin main_div py-5">
+		<section id="hero" class="d-flex align-items-center  hero_main_margin main_div pb-5">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-10 mx-auto">
 						<div class="row">
 							
 							
-							<div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center main_header_content">
+							<div class="col-lg-6  pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center main_header_content">
 								<h1 >Beautiful websites, creative technology,real results.
 								</h1>
 								<h2 >We are the team of Creative Developer.</h2>
@@ -29,7 +29,7 @@
 							</div>
 							<div class="col-lg-6 order-1 order-lg-2 hero-img " >
 								<figure class="text-center">
-									<img src="images/heroslider/hs1.svg" class="img-fluid animations"  alt="">
+									<img src="images/bg1.svg" class="img-fluid animations"  alt="">
 								</figure>
 								
 							</div>
@@ -70,12 +70,12 @@
 ==========================================================================  -->
 <section class="Common_section bg-light py-5">
 	<div class="main_heading">
-		<h1 class="text-center">Services</h1>
+		<h1 class="text-center">Our Services</h1>
 	</div>
 	
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-10 mx-auto our_ser_res">
+			<div class="col-md-10 col-11 mx-auto our_ser_res">
 				
 				<div class="row common-padding">
 					
@@ -85,7 +85,7 @@
 								<div class="row nb_tab ">
 									<div class="col-3 nb_iconcol">
 										<figure>
-											<img src="https://img.icons8.com/dusk/64/000000/web.png"/>
+											<img  class="img-fluid" src="https://img.icons8.com/dusk/64/000000/web.png"/>
 										</figure>
 									</div>
 									<div class="col-9">
@@ -107,7 +107,7 @@
 								<div class="row nb_tab ">
 									<div class="col-3 nb_iconcol">
 										<figure>
-											<img src="https://img.icons8.com/dusk/64/000000/shopping-cart.png"/>
+											<img  class="img-fluid" src="https://img.icons8.com/dusk/64/000000/shopping-cart.png"/>
 										</figure>
 									</div>
 									<div class="col-9">
@@ -129,7 +129,7 @@
 								<div class="row nb_tab ">
 									<div class="col-3 nb_iconcol">
 										<figure>
-											<img src="https://img.icons8.com/dusk/64/000000/marketing.png" alt="icon">
+											<img  class="img-fluid" src="https://img.icons8.com/dusk/64/000000/marketing.png" alt="icon">
 										</figure>
 									</div>
 									<div class="col-9">
@@ -151,7 +151,7 @@
 								<div class="row nb_tab ">
 									<div class="col-3 nb_iconcol">
 										<figure>
-											<img src="https://img.icons8.com/dusk/64/000000/apple-app-store.png"/>
+											<img  class="img-fluid" src="https://img.icons8.com/dusk/64/000000/apple-app-store.png"/>
 										</figure>
 									</div>
 									<div class="col-9">
@@ -172,7 +172,7 @@
 							<div class="row nb_tab ">
 								<div class="col-3 nb_iconcol">
 									<figure>
-										<img src="https://img.icons8.com/dusk/64/000000/web-design.png"/>
+										<img  class="img-fluid" src="https://img.icons8.com/dusk/64/000000/web-design.png"/>
 									</figure>
 								</div>
 								<div class="col-9">
@@ -193,7 +193,7 @@
 						<div class="row nb_tab ">
 							<div class="col-3 nb_iconcol">
 								<figure>
-									<img src="https://img.icons8.com/dusk/64/000000/adobe-indesign.png"/>
+									<img  class="img-fluid" src="https://img.icons8.com/dusk/64/000000/adobe-indesign.png"/>
 								</figure>
 							</div>
 							<div class="col-9">
@@ -315,15 +315,15 @@
 					<div class="col-md-3 col-11  ">
 						<div class="text-left">
 							<figure>
-								<img src="images/contact.svg" />
+								<img src="images/contact.svg"  class="img-fluid" alt="contact" />
 							</figure>
 						</div>
 					</div>
-					<div class="col-md-7 col-11  ">
+					<div class="col-md-7 col-11 contactus_middle_div ">
 						<div class="text-left text-white">
 							<h1>  Ready to talk about your project? </h1>
 							<br />
-							<p>We’d love to hear from you. Call<a href="tel:+44 7882 205244" class="text-white font-weight-bold">  01235 436262 </a> or email <a href="mailto:nandanehra@gmail.com" class="text-white font-weight-bold">  hello@electricstudio.co.uk</a>, and we’ll be in touch. </p>
+							<p>We’d love to hear from you. Call<a href="tel:+44 7882 205244" class="text-white font-weight-bold">  01235 436262 </a> or email <a href="mailto:nandanehra@gmail.com" class="text-white font-weight-bold">  mail@nbwebsolution.co.uk</a>, and we’ll be in touch. </p>
 						</div>
 					</div>
 					<div class="col-md-2 col-11  ">
@@ -361,6 +361,8 @@ $('#navbar_id').addClass('menu_center');
 $('#navbar_id').addClass('w-100');
 $('#navbar_id').removeClass('menu_center');
 }
+
+
 </script>
 
 </body>
