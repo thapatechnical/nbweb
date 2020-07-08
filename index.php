@@ -343,7 +343,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Static Website</h5>
-            <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
+            <h6 class="card-price text-center"><span class="period">From</span> £199<span class="period">/month</span></h6>
             <hr>
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Single / Multiple Page</strong></li>
@@ -361,7 +361,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Dynamic Website</h5>
-            <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
+            <h6 class="card-price text-center"><span class="period">From</span>  £299<span class="period">/month</span></h6>
             <hr>
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Multiple Pages</strong></li>
@@ -379,7 +379,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="card">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">E-Commerce</h5>
-            <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
+            <h6 class="card-price text-center"><span class="period">From</span>  £499<span class="period">/month</span></h6>
             <hr>
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited Users</strong></li>

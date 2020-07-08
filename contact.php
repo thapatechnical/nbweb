@@ -17,7 +17,7 @@
 ==========================================================================  -->
 <section class="common-padding bg-light">
 	<div class="main_heading">
-		<h1 class="text-center text-capitalize">Contac Form</h1>
+		<h1 class="text-center text-capitalize">Contact Form</h1>
 	</div>
 	<div class="container-fluid my-5">
 		<div class="row">
