@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	    <!-- Hotjar Tracking Code for http://nbwebsolution.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1890958,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 		<title>NB Web Solution</title>
 		<?php  include 'links/link.php'  ?>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TGGMGG5');</script>
+<!-- End Google Tag Manager -->
 	</head>
 	<body>
-		
+		<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGGMGG5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 		<?php  include 'menu.php' ?>
+
 		<!-- ======= Hero Section ======= -->
 		<section id="hero" class="d-flex align-items-center  hero_main_margin main_div pb-5">
 			<div class="container-fluid">
@@ -50,9 +73,12 @@
 		<div class="row">
 			<div class="col-md-8 col-11 mx-auto ">
 				<div class="text-left">
-					<p> Established in 2005, we’re an Oxford web design agency, easily accessible by train from London Paddington, Reading and Bristol. </p>
+					<p>NB Web Solutions will provide quality, affordable, professional web
+					development and IT services to micro businesses. </p>
 					<br />
-					<p>We’re renowned for our personable, curiously creative way of working, in depth WordPress knowledge and our love of a good challenge. We’re a team of friendly professionals who integrate with your team and methodologies, helping you achieve the best possible results and making your brand stronger.</p>
+					<p>My Company, already with
+						OBU clients, will establish a turnkey methodology in web solutions, offering
+					affordable and understandable packages. </p>
 					<br />
 					<p>If you’re looking to <a href="contact.php" class=""> take your website to the next level</a>, then we’d love to help!</p>
 				</div>
@@ -77,7 +103,7 @@
 		<div class="row">
 			<div class="col-md-10 col-11 mx-auto our_ser_res">
 				
-				<div class="row common-padding">
+				<div class="row common-margin-top">
 					
 					<div class="col-lg-4 col-sm-6" id="b">
 						<a href="web-design"   class="">
@@ -226,7 +252,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-10 mx-auto">
-				<div class="row common-padding ">
+				<div class="row common-margin-top ">
 					<div class="col-md-4 col-12 mx-auto card_res ">
 						 <div class="card card_sec p-2" >
 					    <img class="card-img-top img-fluid " src="images/portfolio/p1.png" alt="Card image" >
@@ -260,7 +286,7 @@
 					  </div>
 					</div>
 					</div>
-				<div class="row common-padding ">
+				<div class="row common-margin-top ">
 						<div class="col-md-4 col-12 mx-auto card_res ">
 						 <div class="card card_sec p-2" >
 					    <img class="card-img-top img-fluid" src="images/portfolio/p1.png" alt="Card image" >
@@ -300,13 +326,90 @@
 #Our Recent works Section Ends
 ==========================================================================  -->		
 
+<!--  ==========================================================================
+#Our Recent Prices Section Ends
+==========================================================================  -->		
+<section class="common-padding bg-light">
+	<div class="main_heading">
+		<h1 class="text-center text-capitalize">our Prices</h1>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-10 mx-auto">
+				<div class="row common-margin-top pricing py-5">
 
+      <!-- Free Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Static Website</h5>
+            <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Single / Multiple Page</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>HTML CSS JS Bootstrap 4/5</li>
+               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Backend and Databases</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+     
+            </ul>
+            <a href="#" class="btn btn-block btn-primary text-uppercase">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <!-- Plus Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Dynamic Website</h5>
+            <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Multiple Pages</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>HTML CSS JS Bootstrap 4/5</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Backend and Databases</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+
+            </ul>
+            <a href="#" class="btn btn-block btn-primary text-uppercase">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <!-- Pro Tier -->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">E-Commerce</h5>
+            <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited Users</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>HTML CSS JS Bootstrap 4/5</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Backend and Databases</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+              
+            </ul>
+            <a href="#" class="btn btn-block btn-primary text-uppercase">Contact Us</a>
+          </div>
+        </div>
+      </div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!--  ==========================================================================
+#Our Recent Prices Section Ends
+==========================================================================  -->		
 
 
 <!--  ==========================================================================
 #Cotact us Section Start
 ==========================================================================  -->
-<section class="Common_section my-5 contactus_index py-3">
+<section class="Common_padding mb-5 contactus_index py-3">
 	
 	<div class="container-fluid my-5">
 		<div class="row">
@@ -350,6 +453,9 @@
 <!--  ==========================================================================
 #Our Footer Section Ends
 ==========================================================================  -->
+<div class="scrolltop float-right">
+	<i class="fa fa-arrow-up"  onclick="topFunction()" id="myBtn" > </i>
+</div>
 
 <script type="text/javascript">
 if ($(window).width() < 992) {
@@ -362,6 +468,21 @@ $('#navbar_id').addClass('w-100');
 $('#navbar_id').removeClass('menu_center');
 }
 
+mybutton = document.getElementById("myBtn");
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+document.body.scrollTop = 0; // For Safari
+document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 
 </script>
 

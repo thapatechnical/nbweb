@@ -3,26 +3,26 @@
   <div class="row">
     <div class="col-12 mx-auto">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand " href="#">NB WebSolution</a>
+        <a class="navbar-brand font-weight-bold" href="index.php">NB WebSolution</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav w-100 d-flex justify-content-center align-items-end menu_center" id="navbar_id">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="service.php">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Portfolio</a>
+              <a class="nav-link " href="portfolio.php">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">About</a>
+              <a class="nav-link " href="about.php">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Contact</a>
+              <a class="nav-link " href="contact.php">Contact</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0 ">

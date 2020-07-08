@@ -9,7 +9,7 @@
               
             <div class="col-md-4 col-xl-5">
               <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/logo.png" alt="" width="140" height="37" ></a>
-                <p class="pt-3">NB Web Solution is a leading website development and digital marketing company having its headquarter in London. 
+                <p class="pt-3">NB Web Solution is a web development start-ups. We provide online presence for start-up, entrepreneurs, local shops such as high street shops, local vendors and farmers to make their business online.
 </p>
            
               </div>

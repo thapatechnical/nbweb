@@ -295,7 +295,7 @@ button {
 .main_div {
 	width: 100%;
 	height: auto;
-	background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 50%, rgb(39, 73, 109)), url("../images/bg.png");
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 50%, rgb(49, 167, 254)), url("../images/bg.png");
 	background-size: 100% 100%;
 	position: relative;
 }
@@ -336,8 +336,12 @@ button {
 	transform-origin: 100% 0;
 }
 
-.common-padding {
+.common-margin-top {
 	margin-top: 50px;
+}
+
+.common-padding {
+	padding: 50px 0;
 }
 
 .nb_tab {
@@ -430,6 +434,73 @@ button {
 }
 
 /* ==========================================================================
+#Our Prices Section 
+========================================================================== */
+section.pricing {
+	background: #007bff;
+	background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+.pricing .card {
+	border: none;
+	border-radius: 1rem;
+	transition: all 0.2s;
+	box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+	margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+	margin: 0.5rem 0;
+	font-size: 1.1rem;
+	letter-spacing: .1rem;
+	font-weight: bold;
+}
+
+.pricing .card-price {
+	font-size: 4rem;
+	margin: 0;
+}
+
+.pricing .card-price .period {
+	font-size: 0.8rem;
+}
+
+.pricing ul li {
+	margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+	opacity: 0.7;
+}
+
+.pricing .btn {
+	font-size: 80%;
+	border-radius: 5rem;
+	letter-spacing: .1rem;
+	font-weight: bold;
+	padding: 1rem;
+	opacity: 0.7;
+	transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+@media (min-width:992px) {
+	.pricing .card:hover {
+		margin-top: -.25rem;
+		margin-bottom: .25rem;
+		box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+	}
+
+	.pricing .card:hover .btn {
+		opacity: 1;
+	}
+
+}
+
+/* ==========================================================================
 #Contact Us Works 
 ========================================================================== */
 .contactus_index {
@@ -503,3 +574,34 @@ button {
 /* ==========================================================================
 #Footer Ends
 ========================================================================== */
+
+/* ==========================================================================
+# The fixed button at bottom
+========================================================================== */
+
+
+#myBtn {
+	font-size: 15px;
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 40px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: #00A8FF; /* Set a background color */
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 10px; /* Some padding */
+	border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+	background: #606060; /* Add a dark-grey background on hover */
+}
+
+@media(max-width:768px) {
+	#myBtn {
+		right: 10px;
+	}
+
+}
