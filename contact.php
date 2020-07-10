@@ -11,6 +11,47 @@
 #Our Menu Section Start
 ==========================================================================  -->	
 <?php  include 'menu.php' ?>
+<?php
+if(isset($_POST['submit'])){
+  extract($_POST);
+  include 'dbconnection.php';
+  
+      $insertquery = "insert into contactus( name, phone, email, message) values('$name','$phone','$email', '$message')";
+      // echo $insertquery
+      $iquery = mysqli_query($db, $insertquery);
+			if($iquery){
+					?>
+						<script>
+							alert("Thank for your response..!!");
+						</script>
+					<?php
+
+          // Email functioning start here
+          $message1 = "Contact Person Name: ".$name."\nPhone: ".$phone."\nEmail: ".$email."\nMessage: ".$message;
+          $sub = "NBWEB-Contact";
+          $boundary = md5("nbweb");
+          $headers = "MIME-Version: 1.0\r\n";
+          $headers .= "From:info@nbweb.com\r\n";
+          $headers .= "Reply-To:info@nbweb.com\r\n";
+          $headers .= "Content-Type: multipart/mixed; boundary =". $boundary."\r\n";
+
+          $body = "--$boundary\r\n";
+          $body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
+          $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
+          $body .= chunk_split(base64_encode(message1));
+          $body .= "--$boundary\r\n";
+
+          $sentMailResult = mail('mail@nbwebsolution.com', $sub, $body, $headers);
+          // Email function end here
+				}else{
+					?>
+						<script>
+							alert("Please try again ");
+						</script>
+					<?php
+				}
+		}	
+?>
 
 <!--  ==========================================================================
 #Our services Section Start
@@ -29,7 +70,7 @@
 
                     <!--Form with header-->
 
-                    <form action="mail.php" method="post">
+                    <form method="post" action="<?php echo htmlentities($_SERVER["PHP_SELF"]);?>" class="form-conatiner">
                         <div class="card  rounded-0">
                             <div class="card-header p-0">
                                 <div class="bg-info text-white text-center py-2">
@@ -45,7 +86,7 @@
                                         <div class="input-group-prepend">
                                             <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
                                         </div>
-                                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="FullName" required>
+                                        <input type="text" class="form-control" id="nombre" name="name" placeholder="FullName" required>
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -71,12 +112,12 @@
                                         <div class="input-group-prepend">
                                             <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
                                         </div>
-                                        <textarea class="form-control" placeholder="Message" required></textarea>
+                                        <textarea class="form-control" placeholder="Message" name="message" required></textarea>
                                     </div>
                                 </div>
 
                                 <div class="text-center">
-                                    <input type="submit" value="Send" class="btn btn-info btn-block rounded-0 py-2">
+                                    <input type="submit" name="submit" value="Send" class="btn btn-info btn-block rounded-0 py-2">
                                 </div>
                             </div>
 
